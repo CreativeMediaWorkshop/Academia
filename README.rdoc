@@ -1,0 +1,25 @@
+== Academia
+
+------
+
+=== 开发团队
+
+* 创意媒体工作室 - 网络技术中心
+
+=== 环境
+
+* Rails 4.1.0.Beta1
+* Ruby 2.1.0
+* Postgresql (>=9.1)
+* Puma
+* Nginx
+
+=== 开发部署
+
+````bash
+cp config/database.yml.sample config/database.yml
+vi config/database.yml
+
+rake db:create
+rake db:migrate
+````
