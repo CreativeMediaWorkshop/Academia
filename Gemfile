@@ -59,15 +59,15 @@ gem 'cancan'
 gem 'carrierwave'
 
 # Search
-# gem 'thinking-sphinx'
+#gem 'thinking-sphinx'
 
 # Others
 gem 'client_side_validations'
 gem 'guard-rspec'
-gem 'rb-inotify'
-gem 'libnotify'
-gem 'markdown'
-gem 'redcarpet'
+#gem 'rb-inotify'
+#gem 'libnotify'
+#gem 'markdown'
+#gem 'redcarpet'
 gem 'kaminari'
 
 gem 'rack-mini-profiler'
