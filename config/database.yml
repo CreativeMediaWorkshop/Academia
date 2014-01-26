@@ -2,7 +2,8 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: postgres
+  username: discourse
+  password: 9527serverpwd
   host: localhost
 
 development:
