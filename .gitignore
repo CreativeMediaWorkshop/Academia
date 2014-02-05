@@ -8,6 +8,7 @@
 .DS_Store
 /.bundle
 /config/database.yml
+/app/assets/stylesheets/google.css
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal

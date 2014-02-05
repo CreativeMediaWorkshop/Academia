@@ -1,7 +1,17 @@
 Rails.application.routes.draw do
+  get "development/style"
+
+  get "development/model"
+
+  get "development/index"
+
+  get "development/status"
+
   resources :courses
 
   get "home/index"
+
+  get 'style' => 'development#style'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
