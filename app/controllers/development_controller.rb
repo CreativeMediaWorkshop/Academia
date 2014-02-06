@@ -10,4 +10,7 @@ class DevelopmentController < ApplicationController
 
   def status
   end
+
+  def coursepage
+  end
 end
