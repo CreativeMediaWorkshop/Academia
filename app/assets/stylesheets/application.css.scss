@@ -21,6 +21,8 @@
 $font-family-sans-serif: arial,sans-serif;
 $text-color: #262626;
 $link-color: $blue-link;
+$grid-columns: 16;
+$grid-gutter-width: 0px;
 @import 'bootstrap';
 
 // Academia Custom Styles
@@ -28,7 +30,9 @@ $link-color: $blue-link;
 
 body {
 	-webkit-font-smoothing: antialiased !important;
-	font-family: roboto !important;
+	font-family: roboto,arial,sans-serif !important;
+  padding-top: 60px;
+  background-color: rgb(229, 229, 229);
 }
 @font-face {
   font-family: 'Roboto';

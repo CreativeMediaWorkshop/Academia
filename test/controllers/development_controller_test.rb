@@ -21,4 +21,9 @@ class DevelopmentControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get coursepage" do
+    get :coursepage
+    assert_response :success
+  end
+
 end

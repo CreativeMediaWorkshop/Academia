@@ -1,4 +1,4 @@
-.container style="background-color:#eee;"
+.container
   h1 This is a show for this site's stylesheets
   hr
   h2 PartI. Button
@@ -27,12 +27,6 @@
     | Bace Green Button
   button.acd.big.btn.green
     | Big Green Button
-  button.acd.small.btn.red
-    | Small Red Button
-  button.acd.base.btn.red
-    | Bace Red Button
-  button.acd.big.btn.red
-    | Big Red Button
   br/
   br/
   h3 
@@ -41,3 +35,55 @@
     | Bace White Button With Shadow
   button.acd.base.btn.blue.warning.shadow
     | Blue White Button With Shadow
+  br
+  h2 Part.II Icon
+  .acd.icon.camera.small
+  .acd.icon.vedio.small
+  .acd.icon.link.small
+  .acd.icon.date.small
+  .acd.icon.close
+  .acd.icon.add.user
+  .acd.icon.inv.pencil
+  .acd.icon.inv.camera
+  .acd.icon.inv.link
+  .acd.icon.inv.date
+  .acd.icon.date
+  .acd.icon.small.mail
+  .acd.icon.mute.close
+  .acd.icon.left
+  .acd.icon.right
+  h2 Part.III NavBar
+  nav.navbar.navbar-default.acd role="navigation"
+    .navbar-header
+      button.navbar-toggle type="button" id="mobile-menu"
+        span.sr-only NavBar
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.acd.logo
+    .acd.collapse.navbar-collapse#example-navbar
+      ul.nav.navbar-nav.main
+        li.active
+          a link1
+        li
+          a link2
+        li
+          a link3
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            | link4
+            b.caret
+          ul.dropdown-menu.shadow.acd
+            li
+              a item1
+            li
+              a item2
+            li
+              a item3
+            li
+              a item4
+      ul.nav.navbar-nav.navbar-right
+        li
+          a warn1
+        li
+          a warn2
