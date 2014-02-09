@@ -13,4 +13,7 @@ class DevelopmentController < ApplicationController
 
   def coursepage
   end
+
+  def listpage
+  end
 end

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "development/listpage"
+
   get "development/coursepage"
 
   get "development/style"
